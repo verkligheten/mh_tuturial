@@ -18,6 +18,7 @@ gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
+gem 'pry'
 
 group :development, :test do
   gem 'byebug'
@@ -37,4 +38,3 @@ group :production do
   gem 'rails_12factor', '0.0.2'
   gem 'puma',           '2.11.1'
 end
-
