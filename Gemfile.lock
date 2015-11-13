@@ -253,6 +253,7 @@ DEPENDENCIES
   mini_magick (= 3.8.0)
   minitest-reporters (= 1.0.5)
   pg (= 0.17.1)
+  pry
   puma (= 2.11.1)
   rails (= 4.2.3)
   rails_12factor (= 0.0.2)
@@ -264,3 +265,6 @@ DEPENDENCIES
   uglifier (= 2.5.3)
   web-console (~> 2.0)
   will_paginate (= 3.0.7)
+
+BUNDLED WITH
+   1.10.6
