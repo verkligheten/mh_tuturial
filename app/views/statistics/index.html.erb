@@ -1,6 +1,6 @@
 <h1>Statistics</h1>
   <% @statistics.each do |post|%>
     <ul>
-      <li><%= "User ID:#{post[0]}  Date:#{post[1]}  Count of posts: #{post[2]}" %></li>
+      <li><%= "User ID:#{post.user_id}  Date:#{post.date}  Count of posts: #{post.count}" %></li>
     </ul>
   <%end%>
